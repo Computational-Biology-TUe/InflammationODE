@@ -1,3 +1,5 @@
+<a href="https://doi.org/10.5281/zenodo.11473051"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.11473051.svg"></a>
+
 # InflammationODE
 MATLAB implementation of model code from "Mathematical Model of the Inflammatory Response to Acute and Prolonged Lipopolysaccharide Exposure in Humans"
 
