@@ -28,6 +28,22 @@ Below is an overview of each file and its function:
 6. **data.mat**
     - This file contains the population averages extracted from literature figures using WebPlotDigitizer. The data in this file serves as the reference for parameter estimation and model validation.
 
+### Folders
+
+In addition to the main files, there are three folders that contain scripts for different types of parameter sensitivity and profile analysis:
+
+1. **LPSA/** (Local Parameter Sensitivity Analysis)
+    - This folder contains the code for local parameter sensitivity analysis, which explores how small changes in individual parameters affect model outputs. To run this analysis, simply execute the script starting with `Main_` in this folder (e.g., `Main_LPSA.m`).
+
+2. **MPSA/** (Multiple Parameter Sensitivity Analysis)
+    - This folder includes code for multiple parameter sensitivity analysis, where multiple parameters are varied simultaneously to assess their collective influence on the model's behavior. Run the script starting with `Main_` to perform this analysis (e.g., `Main_MPSA.m`).
+
+3. **PLA/** (Profile Likelihood Analysis)
+    - This folder contains the code for profile likelihood analysis, which is used to evaluate parameter identifiability and confidence intervals. To execute this analysis, run the `Main_` script in this folder (e.g., `Main_PLA.m`).
+
+Each folder is self-contained, and you only need to run the respective `Main_` script in each folder to perform the associated analysis.
+
+
 ## Usage
 
 To run the model and perform basic visualizations, execute the `Main.m` script. This script integrates all other components and provides a comprehensive simulation environment.
